@@ -7,3 +7,10 @@ CREATE TABLE piloto (
     pais VARCHAR(50),
     equip VARCHAR(50)
 );
+
+CREATE TABLE equipo (
+    id INT PRIMARY KEY,
+    nom_equip VARCHAR(50),
+    cap VARCHAR(50),
+    marca VARCHAR(50)
+);
